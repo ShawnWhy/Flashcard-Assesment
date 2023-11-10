@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlashCards</title>
+    <style>
+        .selection{
+            border:1px solid black
+        }
+        .selection:hover{
+            background-color: aqua;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div id = "showCard" style="height:500px; width:600px; padding:20px; font-size:30px;">
+
+    </div>
+    <div id = "optionsContainer">
+
+    </div>
+<div id="count">countdown: 5</div>
+    <div id="score">score: 0</div>
+
+    <form id ="submission" style="display:none">
+          <label for="fname">name:</label><br>
+  <input type="text" id="username" name="username" value="name" ><br>
+
+
+<input type="submit" value="Submit">
+
+</form>
+<div id="scoreBoard">
+
+</div>
+    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
